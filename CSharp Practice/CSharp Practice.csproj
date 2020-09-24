@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D08BE859-A786-4F9F-BE3D-45D32D5B9297}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSharp_Practice</RootNamespace>
+    <AssemblyName>CSharp Practice</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>FSDemo</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chapter 10\FSDemo.cs" />
+    <Compile Include="Chapter 2\BlockDemo.cs" />
+    <Compile Include="Chapter 2\Circle.cs" />
+    <Compile Include="Chapter 2\Example.cs" />
+    <Compile Include="Chapter 2\Example2.cs" />
+    <Compile Include="Chapter 2\Example3.cs" />
+    <Compile Include="Chapter 2\ForDemo.cs" />
+    <Compile Include="Chapter 2\IdTest.cs" />
+    <Compile Include="Chapter 2\IfDemo.cs" />
+    <Compile Include="Chapter 2\ProdSum.cs" />
+    <Compile Include="Chapter 3\BoolDemo.cs" />
+    <Compile Include="Chapter 3\CastDemo.cs" />
+    <Compile Include="Chapter 3\CastExpr.cs" />
+    <Compile Include="Chapter 4\Encode.cs" />
+    <Compile Include="Chapter 4\IsOdd.cs" />
+    <Compile Include="Chapter 4\MakeEven.cs" />
+    <Compile Include="Chapter 4\MakeOdd.cs" />
+    <Compile Include="Chapter 4\MultDiv.cs" />
+    <Compile Include="Chapter 4\NotDemo.cs" />
+    <Compile Include="Chapter 4\NoZeroDiv.cs" />
+    <Compile Include="Chapter 4\NoZeroDiv2.cs" />
+    <Compile Include="Chapter 4\SCops.cs" />
+    <Compile Include="Chapter 3\DisplayOptions.cs" />
+    <Compile Include="Chapter 3\DynInit.cs" />
+    <Compile Include="Chapter 3\FindRadius.cs" />
+    <Compile Include="Chapter 3\FormatSpecifier.cs" />
+    <Compile Include="Chapter 3\FutVal.cs" />
+    <Compile Include="Chapter 4\Implication.cs" />
+    <Compile Include="Chapter 3\ImplicitlyTypedVar.cs" />
+    <Compile Include="Chapter 3\Inches.cs" />
+    <Compile Include="Chapter 3\LtoD.cs" />
+    <Compile Include="Chapter 4\ModDemo.cs" />
+    <Compile Include="Chapter 3\NestVar.cs" />
+    <Compile Include="Chapter 4\PrePostDemo.cs" />
+    <Compile Include="Chapter 3\PromDemo.cs" />
+    <Compile Include="Chapter 4\RelLogOps.cs" />
+    <Compile Include="Chapter 3\ScopeDemo.cs" />
+    <Compile Include="Chapter 4\ShiftDemo.cs" />
+    <Compile Include="Chapter 4\ShowBits.cs" />
+    <Compile Include="Chapter 4\SideEffects.cs" />
+    <Compile Include="Chapter 3\StrDemo.cs" />
+    <Compile Include="Chapter 3\Trigonometry.cs" />
+    <Compile Include="Chapter 3\UseDecimal.cs" />
+    <Compile Include="Chapter 3\Use_Byte.cs" />
+    <Compile Include="Chapter 3\VarInitDemo.cs" />
+    <Compile Include="Chapter 3\Verbatim.cs" />
+    <Compile Include="Chapter 5\BreakDemo.cs" />
+    <Compile Include="Chapter 5\BreakDemo2.cs" />
+    <Compile Include="Chapter 5\BreakNested.cs" />
+    <Compile Include="Chapter 5\Comma.cs" />
+    <Compile Include="Chapter 5\ContDemo.cs" />
+    <Compile Include="Chapter 5\DecrFor.cs" />
+    <Compile Include="Chapter 5\DoWhileDemo.cs" />
+    <Compile Include="Chapter 5\Empty.cs" />
+    <Compile Include="Chapter 5\Empty2.cs" />
+    <Compile Include="Chapter 5\Empty3.cs" />
+    <Compile Include="Chapter 5\EmptyCasesCanFall.cs" />
+    <Compile Include="Chapter 5\FindPrimes.cs" />
+    <Compile Include="Chapter 5\FindSmallestFactor.cs" />
+    <Compile Include="Chapter 5\forDemo.cs" />
+    <Compile Include="Chapter 5\ForVar.cs" />
+    <Compile Include="Chapter 5\Ladder.cs" />
+    <Compile Include="Chapter 5\PosNeg.cs" />
+    <Compile Include="Chapter 5\PosNegZero.cs" />
+    <Compile Include="Chapter 5\Power.cs" />
+    <Compile Include="Chapter 5\SwitchDemo.cs" />
+    <Compile Include="Chapter 5\SwitchDemo2.cs" />
+    <Compile Include="Chapter 5\SwitchGoto.cs" />
+    <Compile Include="Chapter 5\Use_goto.cs" />
+    <Compile Include="Chapter 5\WhileDemo.cs" />
+    <Compile Include="Chapter 6\AreaPerPersonMethod.cs" />
+    <Compile Include="Chapter 6\BuildingDemo.cs" />
+    <Compile Include="Chapter 6\DestructDemo.cs" />
+    <Compile Include="Chapter 7\ArrayDemo.cs" />
+    <Compile Include="Chapter 7\AssignARef.cs" />
+    <Compile Include="Chapter 7\Average.cs" />
+    <Compile Include="Chapter 7\ConvertDigitsToWords.cs" />
+    <Compile Include="Chapter 7\ForeachDemo.cs" />
+    <Compile Include="Chapter 7\ForeachDemo2.cs" />
+    <Compile Include="Chapter 7\ForeachDemoBreak.cs" />
+    <Compile Include="Chapter 7\Jagged.cs" />
+    <Compile Include="Chapter 7\JaggedLength.cs" />
+    <Compile Include="Chapter 7\JaggedVar.cs" />
+    <Compile Include="Chapter 7\LengthDemo.cs" />
+    <Compile Include="Chapter 7\LengthDemo3D.cs" />
+    <Compile Include="Chapter 7\RevCopy.cs" />
+    <Compile Include="Chapter 7\Search.cs" />
+    <Compile Include="Chapter 7\Squares.cs" />
+    <Compile Include="Chapter 7\StringArrays.cs" />
+    <Compile Include="Chapter 7\StringDemo.cs" />
+    <Compile Include="Chapter 7\StringSwitch.cs" />
+    <Compile Include="Chapter 7\StrOps.cs" />
+    <Compile Include="Chapter 7\SubStr.cs" />
+    <Compile Include="Chapter 7\ThreeDMatrix.cs" />
+    <Compile Include="Chapter 7\TwoD.cs" />
+    <Compile Include="Chapter 8\AccessDemo.cs" />
+    <Compile Include="Chapter 8\CallByRef.cs" />
+    <Compile Include="Chapter 8\CallByValue.cs" />
+    <Compile Include="Chapter 8\Cipher.cs" />
+    <Compile Include="Chapter 8\CLDemo.cs" />
+    <Compile Include="Chapter 8\ConsDemo.cs" />
+    <Compile Include="Chapter 8\CountDemo.cs" />
+    <Compile Include="Chapter 8\DemoOut.cs" />
+    <Compile Include="Chapter 8\FindFactors.cs" />
+    <Compile Include="Chapter 8\MakeObjects.cs" />
+    <Compile Include="Chapter 8\NamedArgsDemo.cs" />
+    <Compile Include="Chapter 8\ObjInitDemo.cs" />
+    <Compile Include="Chapter 8\OptionArgDemo.cs" />
+    <Compile Include="Chapter 8\OverloadConsDemo.cs" />
+    <Compile Include="Chapter 8\OverloadConsDemo2.cs" />
+    <Compile Include="Chapter 8\OverloadDemo.cs" />
+    <Compile Include="Chapter 8\OverloadStackDemo.cs" />
+    <Compile Include="Chapter 8\ParamsDemo.cs" />
+    <Compile Include="Chapter 8\ParamsDemo2.cs" />
+    <Compile Include="Chapter 8\PassOb.cs" />
+    <Compile Include="Chapter 8\Recursion.cs" />
+    <Compile Include="Chapter 8\RefDemo.cs" />
+    <Compile Include="Chapter 8\RefSwapDemo.cs" />
+    <Compile Include="Chapter 8\RetObj.cs" />
+    <Compile Include="Chapter 8\RevStrDemo.cs" />
+    <Compile Include="Chapter 8\SDemo.cs" />
+    <Compile Include="Chapter 8\StackDemo.cs" />
+    <Compile Include="Chapter 8\StaticClassDemo.cs" />
+    <Compile Include="Chapter 8\TypeConv.cs" />
+    <Compile Include="Chapter 8\UseOptArgs.cs" />
+    <Compile Include="Chapter 8\UseOut.cs" />
+    <Compile Include="Chapter 8\ValueSwapDemo.cs" />
+    <Compile Include="Chapter 9\ConversionOperator.cs" />
+    <Compile Include="Chapter 9\LogicalOpDemo.cs" />
+    <Compile Include="Chapter 9\NybbleDemo.cs" />
+    <Compile Include="Chapter 9\ThreeDDemo.cs" />
+    <Compile Include="Chapter 9\TrueFalseDemo.cs" />
+    <Compile Include="pyramid.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
